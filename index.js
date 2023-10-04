@@ -8,7 +8,6 @@ function superbowlWin(record) {
     }
   }
 
-  // Example usage:
   const record = [
     { year: "2015", result: "W"},
     { year: "2014", result: "N/A"},
@@ -17,4 +16,4 @@ function superbowlWin(record) {
   ];
 
   const yearOfWin = superbowlWin(record);
-  console.log(yearOfWin); // This will print the year of the win or undefined if no win is found.
+  console.log(yearOfWin);
